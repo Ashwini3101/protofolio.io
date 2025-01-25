@@ -1,0 +1,117 @@
+
+*{
+    font-family:monospace;
+}
+body{
+    margin: 0;
+    background-color:rgb(184, 226, 226);
+    color:grey;
+    font-size: 20px;
+}
+main{
+    padding: 20px;
+}
+
+header{
+     background-color:rgb(169, 225, 225);
+     height: 100vh;
+     color: whitesmoke;
+     border: 1px solid grey;
+     padding: 15px;
+     border-radius: 20px;
+     border-bottom:20px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     flex-wrap:wrap;
+}
+section{
+    background-color:rgb(184, 226, 226);
+    height: 100vh;
+    color: whitesmoke;
+    border: 1px solid grey;
+    padding: 7px;
+    border-radius:15px;
+    margin-bottom:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+header h1{ 
+    text-align: center;
+    color: whitesmoke;
+}
+h1{
+    font-size:40px;
+    color:whitesmoke;
+}
+
+.button{
+    margin: 15px;
+    background-color:rgb(163, 210, 240) ;
+    color: whitesmoke;
+    height: 45px;
+    width: 145px;
+    border: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: center;
+}
+.button:hover{
+    color: burlywood;
+    background-color: cornsilk;
+}
+a{
+    text-decoration:none;
+}
+.fixedButton{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    height:70px;
+    width:70px;
+    border:1px;
+    border-radius:50%;
+    cursor:pointer;
+    color: white;
+    background-color:rgb(184, 226, 226);
+}
+ footer
+ {
+    color: white;
+    background-color:black;
+    height:160px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+
+}
+form div{
+    margin: 5px;
+}
+.submit{
+    background-color:rgb(163, 210, 240) ;
+    color: whitesmoke;
+    height: 25px;
+    width: 60px;
+    border: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: center;
+}
+.submit.hover{
+    color: burlywood;
+    background-color: greenyellow;
+}
+input{
+    border-radius: 5px;
+    border-color: lightslategray;
+}
+.about{
+    font-size: smaller;
+    
+
+}
